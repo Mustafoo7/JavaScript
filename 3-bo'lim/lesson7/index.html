@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+let str = "16dts63bc94hs826vjf39d939";
+let sum = 0;
+
+for (let i = 0; i < str.length; i++) {
+    if (!isNaN(str[i])) {
+        sum += Number(str[i]);
+    }
+}
+
+console.log(sum);
